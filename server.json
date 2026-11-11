@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.zenitya/mcp",
+  "title": "Zenitya",
+  "description": "Your team's custom tools and skills in every agent, through one MCP connection.",
+  "version": "0.1.0",
+  "websiteUrl": "https://zenitya.com",
+  "repository": { "url": "https://github.com/Zenitya/zenitya-plugin", "source": "github" },
+  "icons": [{ "src": "https://zenitya.com/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://api.zenitya.com/mcp" }]
+}

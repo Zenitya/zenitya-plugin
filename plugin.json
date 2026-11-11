@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zenitya",
+  "version": "0.1.0",
+  "description": "Your team's custom tools and skills in every agent, through one MCP connection.",
+  "author": { "name": "Zenitya", "url": "https://zenitya.com" },
+  "homepage": "https://zenitya.com",
+  "repository": "https://github.com/Zenitya/zenitya-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "tools", "skills", "teams", "typescript"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Zenitya",
+        "shortDescription": "Your team's custom tools and skills, in every agent",
+        "longDescription": "Connects your agent to your organization's Zenitya MCP endpoint, where your team's custom TypeScript tools and Agent Skills live. Everyone gets the tools and skills of their groups, in any agent. Includes a skill for building and deploying new tools with the zya CLI.",
+        "developerName": "Zenitya",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://zenitya.com",
+        "privacyPolicyURL": "https://zenitya.com/privacy",
+        "termsOfServiceURL": "https://zenitya.com/terms",
+        "defaultPrompt": [
+          "Which Zenitya tools and skills does my team have?",
+          "Help me turn our weekly report into a Zenitya tool."
+        ]
+      }
+    }
+  }
+}

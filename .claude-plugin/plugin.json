@@ -1,0 +1,16 @@
+{
+  "name": "zenitya",
+  "version": "0.1.0",
+  "description": "Your team's custom tools and skills in every agent, through one MCP connection.",
+  "author": { "name": "Zenitya", "url": "https://zenitya.com" },
+  "homepage": "https://zenitya.com",
+  "repository": "https://github.com/Zenitya/zenitya-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "tools", "skills", "teams", "typescript"],
+  "mcpServers": {
+    "zenitya": {
+      "type": "http",
+      "url": "https://api.zenitya.com/mcp"
+    }
+  }
+}

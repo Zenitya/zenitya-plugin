@@ -1,0 +1,12 @@
+{
+  "name": "zenitya",
+  "description": "The Zenitya plugin: your team's tools and skills in Claude Code.",
+  "owner": { "name": "Zenitya", "url": "https://zenitya.com" },
+  "plugins": [
+    {
+      "name": "zenitya",
+      "source": "./",
+      "description": "Your team's custom tools and skills in every agent, through one MCP connection."
+    }
+  ]
+}
