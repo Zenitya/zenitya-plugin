@@ -1,0 +1,2 @@
+# zenitya-plugin
+
